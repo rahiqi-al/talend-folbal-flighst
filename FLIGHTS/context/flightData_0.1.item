@@ -4,21 +4,15 @@
     <contextParameter xmi:id="_udgtcchhEe-F08d18D4s3g" comment="" name="githubLinkairports" prompt="githubLinkairports?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat&#xA;&#xA;"/>
     <contextParameter xmi:id="_udgtcshhEe-F08d18D4s3g" comment="" name="githubLinkroutes" prompt="githubLinkroutes?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/routes.dat&#xA;&#xA;"/>
     <contextParameter xmi:id="_udgtc8hhEe-F08d18D4s3g" comment="" name="directorydestinition" prompt="directorydestinition?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Users\Youcode\talend files"/>
-    <contextParameter xmi:id="_xodiUMhoEe-F08d18D4s3g" comment="" name="airportPath" prompt="airportPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Users\Youcode\talend files\airports.dat"/>
-    <contextParameter xmi:id="_v4PscMhpEe-F08d18D4s3g" comment="" name="routepath" prompt="routepath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Users\Youcode\talend files\routes.dat"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_udgtdMhhEe-F08d18D4s3g" confirmationNeeded="false" hide="false" name="TEST">
     <contextParameter xmi:id="_udgtdchhEe-F08d18D4s3g" comment="" name="githubLinkairports" prompt="githubLinkairports?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat&#xD;&#xA;&#xD;&#xA;"/>
     <contextParameter xmi:id="_udgtdshhEe-F08d18D4s3g" comment="" name="githubLinkroutes" prompt="githubLinkroutes?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/routes.dat&#xA;&#xA;"/>
     <contextParameter xmi:id="_udgtd8hhEe-F08d18D4s3g" comment="" name="directorydestinition" prompt="directorydestinition?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Users\Youcode\talend files"/>
-    <contextParameter xmi:id="_xodiUchoEe-F08d18D4s3g" comment="" name="airportPath" prompt="airportPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Users\Youcode\talend files\airports.dat"/>
-    <contextParameter xmi:id="_v4PscchpEe-F08d18D4s3g" comment="" name="routepath" prompt="routepath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Users\Youcode\talend files\routes.dat"/>
   </talendfile:ContextType>
   <talendfile:ContextType xmi:id="_udgteMhhEe-F08d18D4s3g" confirmationNeeded="false" hide="false" name="PROD">
     <contextParameter xmi:id="_udgtechhEe-F08d18D4s3g" comment="" name="githubLinkairports" prompt="githubLinkairports?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat&#xD;&#xA;&#xD;&#xA;"/>
     <contextParameter xmi:id="_udgteshhEe-F08d18D4s3g" comment="" name="githubLinkroutes" prompt="githubLinkroutes?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/routes.dat&#xA;&#xA;"/>
     <contextParameter xmi:id="_udgte8hhEe-F08d18D4s3g" comment="" name="directorydestinition" prompt="directorydestinition?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Users\Youcode\talend files"/>
-    <contextParameter xmi:id="_xodiUshoEe-F08d18D4s3g" comment="" name="airportPath" prompt="airportPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Users\Youcode\talend files\airports.dat"/>
-    <contextParameter xmi:id="_v4PscshpEe-F08d18D4s3g" comment="" name="routepath" prompt="routepath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:\Users\Youcode\talend files\routes.dat"/>
   </talendfile:ContextType>
 </xmi:XMI>

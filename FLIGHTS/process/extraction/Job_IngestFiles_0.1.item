@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="DEV" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="PROD">
-    <contextParameter comment="" name="airportPath" prompt="airportPath?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="C:\Users\Youcode\talend files\airports.dat" internalId="_CrtgkMhsEe-F08d18D4s3g"/>
-    <contextParameter comment="" name="directorydestinition" prompt="directorydestinition?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="C:\Users\Youcode\talend files" internalId="_CrtgkchsEe-F08d18D4s3g"/>
-    <contextParameter comment="" name="githubLinkairports" prompt="githubLinkairports?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat&#xD;&#xA;&#xD;&#xA;" internalId="_CrtgkshsEe-F08d18D4s3g"/>
-    <contextParameter comment="" name="githubLinkroutes" prompt="githubLinkroutes?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/routes.dat&#xA;&#xA;" internalId="_Crtgk8hsEe-F08d18D4s3g"/>
-    <contextParameter comment="" name="routepath" prompt="routepath?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="C:\Users\Youcode\talend files\routes.dat" internalId="_CrtglMhsEe-F08d18D4s3g"/>
+    <contextParameter comment="" name="directorydestinition" prompt="directorydestinition?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="C:\Users\Youcode\talend files" internalId="_fcLzkMhyEe-F08d18D4s3g"/>
+    <contextParameter comment="" name="githubLinkairports" prompt="githubLinkairports?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat&#xD;&#xA;&#xD;&#xA;" internalId="_fcLzkchyEe-F08d18D4s3g"/>
+    <contextParameter comment="" name="githubLinkroutes" prompt="githubLinkroutes?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/routes.dat&#xA;&#xA;" internalId="_fcLzkshyEe-F08d18D4s3g"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="DEV">
-    <contextParameter comment="" name="airportPath" prompt="airportPath?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="C:\Users\Youcode\talend files\airports.dat" internalId="_CrtglchsEe-F08d18D4s3g"/>
-    <contextParameter comment="" name="directorydestinition" prompt="directorydestinition?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="C:\Users\Youcode\talend files" internalId="_CrtglshsEe-F08d18D4s3g"/>
-    <contextParameter comment="" name="githubLinkairports" prompt="githubLinkairports?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat&#xA;&#xA;" internalId="_Crtgl8hsEe-F08d18D4s3g"/>
-    <contextParameter comment="" name="githubLinkroutes" prompt="githubLinkroutes?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/routes.dat&#xA;&#xA;" internalId="_CrtgmMhsEe-F08d18D4s3g"/>
-    <contextParameter comment="" name="routepath" prompt="routepath?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="C:\Users\Youcode\talend files\routes.dat" internalId="_CrtgmchsEe-F08d18D4s3g"/>
+    <contextParameter comment="" name="directorydestinition" prompt="directorydestinition?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="C:\Users\Youcode\talend files" internalId="_fcLzk8hyEe-F08d18D4s3g"/>
+    <contextParameter comment="" name="githubLinkairports" prompt="githubLinkairports?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat&#xA;&#xA;" internalId="_fcLzlMhyEe-F08d18D4s3g"/>
+    <contextParameter comment="" name="githubLinkroutes" prompt="githubLinkroutes?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/routes.dat&#xA;&#xA;" internalId="_fcLzlchyEe-F08d18D4s3g"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="TEST">
-    <contextParameter comment="" name="airportPath" prompt="airportPath?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="C:\Users\Youcode\talend files\airports.dat" internalId="_CrtgmshsEe-F08d18D4s3g"/>
-    <contextParameter comment="" name="directorydestinition" prompt="directorydestinition?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="C:\Users\Youcode\talend files" internalId="_Crtgm8hsEe-F08d18D4s3g"/>
-    <contextParameter comment="" name="githubLinkairports" prompt="githubLinkairports?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat&#xD;&#xA;&#xD;&#xA;" internalId="_CrtgnMhsEe-F08d18D4s3g"/>
-    <contextParameter comment="" name="githubLinkroutes" prompt="githubLinkroutes?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/routes.dat&#xA;&#xA;" internalId="_CrtgnchsEe-F08d18D4s3g"/>
-    <contextParameter comment="" name="routepath" prompt="routepath?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="C:\Users\Youcode\talend files\routes.dat" internalId="_CrtgnshsEe-F08d18D4s3g"/>
+    <contextParameter comment="" name="directorydestinition" prompt="directorydestinition?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="C:\Users\Youcode\talend files" internalId="_fcLzlshyEe-F08d18D4s3g"/>
+    <contextParameter comment="" name="githubLinkairports" prompt="githubLinkairports?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat&#xD;&#xA;&#xD;&#xA;" internalId="_fcLzl8hyEe-F08d18D4s3g"/>
+    <contextParameter comment="" name="githubLinkroutes" prompt="githubLinkroutes?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/routes.dat&#xA;&#xA;" internalId="_fcLzmMhyEe-F08d18D4s3g"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -121,20 +115,10 @@
   </parameters>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="280" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tFileInputDelimited" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="File/Input" show="false"/>
-    <elementParameter field="CHECK" name="START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tFileInputDelimited" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.airportPath"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.directorydestinition+&quot;/airports.dat&quot;"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
@@ -175,7 +159,7 @@
       <elementValue elementRef="TRIM" value="false" id="15"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Altitude" id="16"/>
       <elementValue elementRef="TRIM" value="false" id="17"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="TimezoneRegion" id="18"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Timezone" id="18"/>
       <elementValue elementRef="TRIM" value="false" id="19"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="DST" id="20"/>
       <elementValue elementRef="TRIM" value="false" id="21"/>
@@ -211,7 +195,7 @@
       <elementValue elementRef="DECODE" value="false" id="15"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Altitude" id="16"/>
       <elementValue elementRef="DECODE" value="false" id="17"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="TimezoneRegion" id="18"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Timezone" id="18"/>
       <elementValue elementRef="DECODE" value="false" id="19"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="DST" id="20"/>
       <elementValue elementRef="DECODE" value="false" id="21"/>
@@ -326,20 +310,10 @@
   </node>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="280" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_2" show="false"/>
-    <elementParameter field="TEXT" name="COMPONENT_NAME" value="tFileInputDelimited" show="false"/>
-    <elementParameter field="TEXT" name="VERSION" value="0.102 (ALPHA)" show="false"/>
-    <elementParameter field="TEXT" name="FAMILY" value="File/Input" show="false"/>
-    <elementParameter field="CHECK" name="START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="STARTABLE" value="true" show="false"/>
-    <elementParameter field="CHECK" name="SUBTREE_START" value="true" show="false"/>
-    <elementParameter field="CHECK" name="END_OF_FLOW" value="false" show="false"/>
-    <elementParameter field="TEXT" name="HELP" value="org.talend.help.tFileInputDelimited" show="false"/>
-    <elementParameter field="DIRECTORY" name="IREPORT_PATH" value="" show="false"/>
-    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="C:\Program Files (x86)\Talend-Studio\studio\configuration\lib\java" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="DYNAMIC" value="" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.routepath"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.directorydestinition+&quot;/routes.dat&quot;"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
@@ -484,6 +458,94 @@
       <column comment="" key="false" length="3" name="Equipment" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
+  <node componentName="tFileFetch" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="80" posY="160" sizeX="41" sizeY="40">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileFetch_1" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="PROTO" value="http"/>
+    <elementParameter field="CHECK" name="POST" value="false"/>
+    <elementParameter field="TEXT" name="URI" value="context.githubLinkairports"/>
+    <elementParameter field="CHECK" name="USE_CACHE" value="false"/>
+    <elementParameter field="TEXT" name="SMB_URI" value="&quot;smb://host/dir/remoteFileName.txt&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.directorydestinition"/>
+    <elementParameter field="CHECK" name="MAKEDIRS" value="false"/>
+    <elementParameter field="TEXT" name="FILENAME" value="&quot;airports.dat&quot;"/>
+    <elementParameter field="CHECK" name="ADD_HEADER" value="false"/>
+    <elementParameter field="TABLE" name="HEADERS" show="false"/>
+    <elementParameter field="TEXT" name="SMB_DOMAIN" value="&quot;domain&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SMB_USERNAME" value="&quot;username&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="SMB_PASSWORD" value="enc:system.encryption.key.v1:orG4cKZBEliC8NzRYusr+xsFx1AzdstWb5/16BLTPYrVUOadu48=" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="TABLE" name="COMMON_PARAMS" show="false"/>
+    <elementParameter field="CHECK" name="READ_COOKIE" value="false"/>
+    <elementParameter field="CHECK" name="SAVE_COOKIE" value="false"/>
+    <elementParameter field="FILE" name="COOKIE_DIR" value="&quot;C:/cookie&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="COOKIE_POLICY" value="DEFAULT" show="false"/>
+    <elementParameter field="CHECK" name="SINGLE_COOKIE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ENCODE_URI" value="true"/>
+    <elementParameter field="OPENED_LIST" name="COMMON_PARAMS_CHARSET" value="&quot;UTF-8&quot;" show="false"/>
+    <elementParameter field="CHECK" name="PRINT" value="false"/>
+    <elementParameter field="TEXT" name="TIMEOUT" value="30000"/>
+    <elementParameter field="CHECK" name="UPLOAD" value="false" show="false"/>
+    <elementParameter field="TABLE" name="FILE_PARAMS" show="false"/>
+    <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
+    <elementParameter field="TEXT" name="PROXY_HOST" value="&quot;127.0.0.1&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROXY_PORT" value="&quot;8080&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROXY_USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" value="enc:system.encryption.key.v1:oTsWQPeozk+RMN5xtfdK7tXS44KqawlRsbLu81OY" show="false"/>
+    <elementParameter field="CHECK" name="PROXY_NTLM" value="false"/>
+    <elementParameter field="TEXT" name="PROXY_DOMAIN" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="NEED_AUTH" value="false"/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;username&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:5pHRti4mX4XZUCSDVYp5yMhtI7Iqg8i5o74lkPf6ORYJlNfO260=" show="false"/>
+    <elementParameter field="CHECK" name="REDIRECT" value="false"/>
+    <elementParameter field="CHECK" name="REDIRECT_302_AS_303" value="false" show="false"/>
+    <elementParameter field="CHECK" name="TRUST_ALL_SERVER" value="false" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileFetch_1"/>
+  </node>
+  <node componentName="tFileFetch" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="80" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileFetch_2" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="PROTO" value="http"/>
+    <elementParameter field="CHECK" name="POST" value="false"/>
+    <elementParameter field="TEXT" name="URI" value="context.githubLinkroutes"/>
+    <elementParameter field="CHECK" name="USE_CACHE" value="false"/>
+    <elementParameter field="TEXT" name="SMB_URI" value="&quot;smb://host/dir/remoteFileName.txt&quot;" show="false"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.directorydestinition"/>
+    <elementParameter field="CHECK" name="MAKEDIRS" value="false"/>
+    <elementParameter field="TEXT" name="FILENAME" value="&quot;routes.dat&quot;"/>
+    <elementParameter field="CHECK" name="ADD_HEADER" value="false"/>
+    <elementParameter field="TABLE" name="HEADERS" show="false"/>
+    <elementParameter field="TEXT" name="SMB_DOMAIN" value="&quot;domain&quot;" show="false"/>
+    <elementParameter field="TEXT" name="SMB_USERNAME" value="&quot;username&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="SMB_PASSWORD" value="enc:system.encryption.key.v1:aq8axE6bYcQBbScLyfqn04TQpuKAMZ6Im6nC5qfueEluNBlkWrk=" show="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="TABLE" name="COMMON_PARAMS" show="false"/>
+    <elementParameter field="CHECK" name="READ_COOKIE" value="false"/>
+    <elementParameter field="CHECK" name="SAVE_COOKIE" value="false"/>
+    <elementParameter field="FILE" name="COOKIE_DIR" value="&quot;C:/cookie&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="COOKIE_POLICY" value="DEFAULT" show="false"/>
+    <elementParameter field="CHECK" name="SINGLE_COOKIE" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ENCODE_URI" value="true"/>
+    <elementParameter field="OPENED_LIST" name="COMMON_PARAMS_CHARSET" value="&quot;UTF-8&quot;" show="false"/>
+    <elementParameter field="CHECK" name="PRINT" value="false"/>
+    <elementParameter field="TEXT" name="TIMEOUT" value="30000"/>
+    <elementParameter field="CHECK" name="UPLOAD" value="false" show="false"/>
+    <elementParameter field="TABLE" name="FILE_PARAMS" show="false"/>
+    <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
+    <elementParameter field="TEXT" name="PROXY_HOST" value="&quot;127.0.0.1&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROXY_PORT" value="&quot;8080&quot;" show="false"/>
+    <elementParameter field="TEXT" name="PROXY_USERNAME" value="&quot;&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" value="enc:system.encryption.key.v1:aPzk66n9AGMdAeh+cTDjrJyOE9nI+pCyieMNerA2" show="false"/>
+    <elementParameter field="CHECK" name="PROXY_NTLM" value="false"/>
+    <elementParameter field="TEXT" name="PROXY_DOMAIN" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="NEED_AUTH" value="false"/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;username&quot;" show="false"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:Cjz+MLsPDWE8KM5FcWCzmCBro81PFcyU6uI8oPOFgt5XOvMm1/Y=" show="false"/>
+    <elementParameter field="CHECK" name="REDIRECT" value="false"/>
+    <elementParameter field="CHECK" name="REDIRECT_302_AS_303" value="false" show="false"/>
+    <elementParameter field="CHECK" name="TRUST_ALL_SERVER" value="false" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileFetch_2"/>
+  </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tLogRow_1">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
       <elementValue elementRef="TRACE_COLUMN" value="Type" id="0"/>
@@ -580,6 +642,12 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2" show="false"/>
   </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileFetch_1" offsetLabelX="0" offsetLabelY="0" source="tFileFetch_1" target="tFileInputDelimited_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileFetch_2" offsetLabelX="0" offsetLabelY="0" source="tFileFetch_2" target="tFileInputDelimited_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
+  </connection>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
@@ -592,6 +660,16 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_2" show="false"/>
     <elementParameter field="TEXT" name="SUBJOB_TITLE" value="routes data"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="128;255;255"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileFetch_1" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="128;255;255"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileFetch_2" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="128;255;255"/>
   </subjob>
 </talendfile:ProcessType>
