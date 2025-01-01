@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_pGG_YchrEe-F08d18D4s3g" name="route" dataPackage="_pGG_YshrEe-F08d18D4s3g" Server="Localhost 127.0.0.1" FilePath="C:/Users/Youcode/talend files/routes.dat" Encoding="ISO-8859-15" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" HeaderValue="0" FooterValue="0" LimitValue="" RemoveEmptyRow="true" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_pGG_YshrEe-F08d18D4s3g" name="default" dataManager="_pGG_YchrEe-F08d18D4s3g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_pGG_Y8hrEe-F08d18D4s3g" id="_7vBGIMhpEe-F08d18D4s3g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGG_ZMhrEe-F08d18D4s3g" label="Airline_Code" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGG_ZchrEe-F08d18D4s3g" label="Airline_ID" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGG_ZshrEe-F08d18D4s3g" label="Source_Airport_Code" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGG_Z8hrEe-F08d18D4s3g" label="Source_Airport_ID" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGG_aMhrEe-F08d18D4s3g" label="Destination_Airport_Code" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGG_achrEe-F08d18D4s3g" label="Destination_Airport_ID" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGG_ashrEe-F08d18D4s3g" label="Codeshare" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGG_a8hrEe-F08d18D4s3g" label="Stops" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pGG_bMhrEe-F08d18D4s3g" label="Equipment" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

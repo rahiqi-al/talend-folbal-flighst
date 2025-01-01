@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_SFsfIMhoEe-F08d18D4s3g" name="airports" dataPackage="_SFttQMhoEe-F08d18D4s3g" Server="Localhost 127.0.0.1" FilePath="C:/Users/Youcode/talend files/airports.dat" Encoding="ISO-8859-15" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" HeaderValue="0" FooterValue="0" LimitValue="" RemoveEmptyRow="true" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_SFttQMhoEe-F08d18D4s3g" name="default" dataManager="_SFsfIMhoEe-F08d18D4s3g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_SFttQchoEe-F08d18D4s3g" id="_NyeWcMhoEe-F08d18D4s3g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SFttQshoEe-F08d18D4s3g" name="ID" label="ID" length="-1" precision="-1" sourceType="" talendType="id_Integer" originalLength="-1">
+        <initialValue xmi:id="_SFuUUMhoEe-F08d18D4s3g" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SFuUUchoEe-F08d18D4s3g" name="AirportName" label="AirportName" length="-1" precision="-1" sourceType="" talendType="id_String" originalLength="-1">
+        <initialValue xmi:id="_SFuUUshoEe-F08d18D4s3g" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SFuUU8hoEe-F08d18D4s3g" name="City" label="City" length="-1" precision="-1" sourceType="" talendType="id_String" originalLength="-1">
+        <initialValue xmi:id="_SFuUVMhoEe-F08d18D4s3g" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SFuUVchoEe-F08d18D4s3g" name="Country" label="Country" length="-1" precision="-1" sourceType="" talendType="id_String" originalLength="-1">
+        <initialValue xmi:id="_SFuUVshoEe-F08d18D4s3g" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SFuUV8hoEe-F08d18D4s3g" name="IATA" label="IATA" length="-1" precision="-1" sourceType="" talendType="id_String" originalLength="-1">
+        <initialValue xmi:id="_SFuUWMhoEe-F08d18D4s3g" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SFuUWchoEe-F08d18D4s3g" name="ICAO" label="ICAO" length="-1" precision="-1" sourceType="" talendType="id_String" originalLength="-1">
+        <initialValue xmi:id="_SFuUWshoEe-F08d18D4s3g" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SFuUW8hoEe-F08d18D4s3g" name="Latitude" label="Latitude" length="-1" precision="-1" sourceType="" talendType="id_Float" originalLength="-1">
+        <initialValue xmi:id="_SFuUXMhoEe-F08d18D4s3g" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SFuUXchoEe-F08d18D4s3g" name="Longitude" label="Longitude" length="-1" precision="-1" sourceType="" talendType="id_Float" originalLength="-1">
+        <initialValue xmi:id="_SFuUXshoEe-F08d18D4s3g" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SFuUX8hoEe-F08d18D4s3g" name="Altitude" label="Altitude" length="-1" precision="-1" sourceType="" talendType="id_Integer" originalLength="-1">
+        <initialValue xmi:id="_SFuUYMhoEe-F08d18D4s3g" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SFuUYchoEe-F08d18D4s3g" name="Timezone" label="Timezone" length="-1" precision="-1" sourceType="" talendType="id_Float" originalLength="-1">
+        <initialValue xmi:id="_SFuUYshoEe-F08d18D4s3g" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SFuUY8hoEe-F08d18D4s3g" name="DST" label="DST" length="-1" precision="-1" sourceType="" talendType="id_String" originalLength="-1">
+        <initialValue xmi:id="_SFuUZMhoEe-F08d18D4s3g" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SFuUZchoEe-F08d18D4s3g" name="TimezoneRegion" label="TimezoneRegion" length="-1" precision="-1" sourceType="" talendType="id_String" originalLength="-1">
+        <initialValue xmi:id="_SFuUZshoEe-F08d18D4s3g" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SFuUZ8hoEe-F08d18D4s3g" name="Type" label="Type" length="-1" precision="-1" sourceType="" talendType="id_String" originalLength="-1">
+        <initialValue xmi:id="_SFuUaMhoEe-F08d18D4s3g" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SFuUachoEe-F08d18D4s3g" name="Source" label="Source" length="-1" precision="-1" sourceType="" talendType="id_String" originalLength="-1">
+        <initialValue xmi:id="_SFuUashoEe-F08d18D4s3g" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
