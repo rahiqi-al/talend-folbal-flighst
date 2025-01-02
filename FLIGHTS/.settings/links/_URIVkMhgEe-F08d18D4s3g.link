@@ -1,0 +1,43 @@
+{
+  "itemId" : "_URIVkMhgEe-F08d18D4s3g",
+  "contextList" : [ {
+    "contextName" : "DEV",
+    "repoId" : "_udJhEMhhEe-F08d18D4s3g",
+    "parameterList" : [ {
+      "id" : "_udgtc8hhEe-F08d18D4s3g",
+      "name" : "directorydestinition"
+    }, {
+      "id" : "_udgtcchhEe-F08d18D4s3g",
+      "name" : "githubLinkairports"
+    }, {
+      "id" : "_udgtcshhEe-F08d18D4s3g",
+      "name" : "githubLinkroutes"
+    } ]
+  }, {
+    "contextName" : "TEST",
+    "repoId" : "_udJhEMhhEe-F08d18D4s3g",
+    "parameterList" : [ {
+      "id" : "_udgtd8hhEe-F08d18D4s3g",
+      "name" : "directorydestinition"
+    }, {
+      "id" : "_udgtdchhEe-F08d18D4s3g",
+      "name" : "githubLinkairports"
+    }, {
+      "id" : "_udgtdshhEe-F08d18D4s3g",
+      "name" : "githubLinkroutes"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_udJhEMhhEe-F08d18D4s3g",
+    "parameterList" : [ {
+      "id" : "_udgte8hhEe-F08d18D4s3g",
+      "name" : "directorydestinition"
+    }, {
+      "id" : "_udgtechhEe-F08d18D4s3g",
+      "name" : "githubLinkairports"
+    }, {
+      "id" : "_udgteshhEe-F08d18D4s3g",
+      "name" : "githubLinkroutes"
+    } ]
+  } ]
+}
