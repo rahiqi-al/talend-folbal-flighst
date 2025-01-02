@@ -358,9 +358,9 @@
       <column comment="" key="false" length="-1" name="Source" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="cleaned_airports" expressionFilter="!(new_airports.IATA).isEmpty()" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="cleaned_airports" expressionFilter="!new_airports.IATA.equals(&quot;&quot;) &amp;&amp; !new_airports.IATA.equals(&quot;\\N&quot;)&#xD;&#xA;" activateExpressionFilter="true">
         <mapperTableEntries name="ID" expression="new_airports.ID  " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="AirportName" expression="new_airports.AirportName" type="id_String" nullable="true"/>
         <mapperTableEntries name="City" expression="StringHandling.TRIM(new_airports.City) " type="id_String" nullable="true"/>
@@ -529,8 +529,10 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="rejected_rows" show="false"/>
   </connection>
   <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0" show="false"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Cleaning"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="128;255;255"/>
   </subjob>
 </talendfile:ProcessType>
