@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="DEV" jobType="Standard">
   <context confirmationNeeded="false" hide="false" name="PROD">
-    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="talend" internalId="_FX9DgMlgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="directorydestinition" prompt="directorydestinition?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="C:\Users\Youcode\talend files" internalId="_FX9DgclgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="githubLinkairports" prompt="githubLinkairports?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat&#xD;&#xA;&#xD;&#xA;" internalId="_FX9DgslgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="githubLinkroutes" prompt="githubLinkroutes?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/routes.dat&#xA;&#xA;" internalId="_FX9Dg8lgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="localhost" internalId="_FX9DhMlgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="ali" internalId="_FX9DhclgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="5432" internalId="_FX9DhslgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="tablename" prompt="tablename?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="flightsEnriched" internalId="_FX9Dh8lgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="postgres" internalId="_FX9DiMlgEe-JjbmYuMgqgg"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="talend" internalId="_C_uGkMm9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="directorydestinition" prompt="directorydestinition?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="C:\Users\Youcode\talend files" internalId="_C_uGkcm9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="githubLinkairports" prompt="githubLinkairports?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat&#xD;&#xA;&#xD;&#xA;" internalId="_C_uGksm9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="githubLinkroutes" prompt="githubLinkroutes?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/routes.dat&#xA;&#xA;" internalId="_C_uGk8m9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="localhost" internalId="_C_uGlMm9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="ali" internalId="_C_uGlcm9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="5432" internalId="_C_uGlsm9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="tablename" prompt="tablename?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="flightsEnriched" internalId="_C_uGl8m9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="postgres" internalId="_C_uGmMm9Ee-7cZ91Tiu39w"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="DEV">
-    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="talend" internalId="_FX9DiclgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="directorydestinition" prompt="directorydestinition?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="C:\Users\Youcode\talend files" internalId="_FX9DislgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="githubLinkairports" prompt="githubLinkairports?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat&#xA;&#xA;" internalId="_FX9Di8lgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="githubLinkroutes" prompt="githubLinkroutes?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/routes.dat&#xA;&#xA;" internalId="_FX9DjMlgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="localhost" internalId="_FX9DjclgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="ali" internalId="_FX9DjslgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="5432" internalId="_FX9Dj8lgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="tablename" prompt="tablename?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="flightsEnriched" internalId="_FX9DkMlgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="postgres" internalId="_FX9DkclgEe-JjbmYuMgqgg"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="talend" internalId="_C_uGmcm9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="directorydestinition" prompt="directorydestinition?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="C:\Users\Youcode\talend files" internalId="_C_uGmsm9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="githubLinkairports" prompt="githubLinkairports?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat&#xA;&#xA;" internalId="_C_uGm8m9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="githubLinkroutes" prompt="githubLinkroutes?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/routes.dat&#xA;&#xA;" internalId="_C_uGnMm9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="localhost" internalId="_C_uGncm9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="ali" internalId="_C_uGnsm9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="5432" internalId="_C_uGn8m9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="tablename" prompt="tablename?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="flightsEnriched" internalId="_C_uGoMm9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="postgres" internalId="_C_uGocm9Ee-7cZ91Tiu39w"/>
   </context>
   <context confirmationNeeded="false" hide="false" name="TEST">
-    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="talend" internalId="_FX9DkslgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="directorydestinition" prompt="directorydestinition?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="C:\Users\Youcode\talend files" internalId="_FX9Dk8lgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="githubLinkairports" prompt="githubLinkairports?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat&#xD;&#xA;&#xD;&#xA;" internalId="_FX9DlMlgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="githubLinkroutes" prompt="githubLinkroutes?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/routes.dat&#xA;&#xA;" internalId="_FX9DlclgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="localhost" internalId="_FX9DlslgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="ali" internalId="_FX9Dl8lgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="5432" internalId="_FX9DmMlgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="tablename" prompt="tablename?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="flightsEnriched" internalId="_FX9DmclgEe-JjbmYuMgqgg"/>
-    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="postgres" internalId="_FX9DmslgEe-JjbmYuMgqgg"/>
+    <contextParameter comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="talend" internalId="_C_uGosm9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="directorydestinition" prompt="directorydestinition?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="C:\Users\Youcode\talend files" internalId="_C_uGo8m9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="githubLinkairports" prompt="githubLinkairports?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat&#xD;&#xA;&#xD;&#xA;" internalId="_C_uGpMm9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="githubLinkroutes" prompt="githubLinkroutes?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="https://raw.githubusercontent.com/jpatokal/openflights/master/data/routes.dat&#xA;&#xA;" internalId="_C_uGpcm9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="localhost" internalId="_C_uGpsm9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="ali" internalId="_C_uGp8m9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="5432" internalId="_C_uGqMm9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="tablename" prompt="tablename?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="flightsEnriched" internalId="_C_uGqcm9Ee-7cZ91Tiu39w"/>
+    <contextParameter comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_udJhEMhhEe-F08d18D4s3g" type="id_String" value="postgres" internalId="_C_uGqsm9Ee-7cZ91Tiu39w"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -136,7 +136,7 @@
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
     <elementParameter field="TEXT" name="HOST" value="context.host"/>
     <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
-    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="context.port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;public&quot;"/>
     <elementParameter field="TEXT" name="USER" value="context.username"/>
@@ -149,7 +149,7 @@
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;"/>
-    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <node componentName="tLogCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="440" posY="400">
@@ -279,18 +279,18 @@
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileInputDelimited_2">
-      <column comment="" key="false" length="2" name="Airline_Code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Airline_Code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="-1" name="Airline_ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Equipement" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="SourceAirportCityCountry" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="DestinationAirportCityCountry" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="false" length="2" name="Airline_Code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="TEXT" type="id_String" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="-1" name="Airline_ID" nullable="true" pattern="" precision="-1" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Equipement" nullable="true" pattern="" precision="-1" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="SourceAirportCityCountry" nullable="true" pattern="" precision="-1" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="DestinationAirportCityCountry" nullable="true" pattern="" precision="-1" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Airline_Code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="Airline_ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Equipement" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SourceAirportCityCountry" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DestinationAirportCityCountry" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
@@ -361,14 +361,14 @@
     <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_2">
-      <column comment="" key="false" length="2" name="Airline_Code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Airline_Code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="-1" name="Airline_ID" nullable="true" pattern="" precision="-1" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Equipement" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="SourceAirportCityCountry" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="DestinationAirportCityCountry" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="false" length="2" name="Airline_Code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Airline_Code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="-1" name="Airline_ID" nullable="true" pattern="" precision="-1" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Equipement" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="SourceAirportCityCountry" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
@@ -394,7 +394,7 @@
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select * from flightsEnriched&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#xA;  \&quot;public\&quot;.\&quot;&quot;+context.tablename+&quot;\&quot;.\&quot;Airline_Code\&quot;, &#xA;  \&quot;public\&quot;.\&quot;&quot;+context.tablename+&quot;\&quot;.\&quot;Airline_ID\&quot;, &#xA;  \&quot;public\&quot;.\&quot;&quot;+context.tablename+&quot;\&quot;.\&quot;Equipement\&quot;, &#xA;  \&quot;public\&quot;.\&quot;&quot;+context.tablename+&quot;\&quot;.\&quot;SourceAirportCityCountry\&quot;, &#xA;  \&quot;public\&quot;.\&quot;&quot;+context.tablename+&quot;\&quot;.\&quot;DestinationAirportCityCountry\&quot;&#xA; FROM \&quot;public\&quot;.\&quot;&quot;+context.tablename+&quot;\&quot;&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
@@ -419,11 +419,11 @@
     </elementParameter>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBInput_1">
-      <column comment="" key="false" length="2" name="Airline_Code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="TEXT" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Airline_Code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="-1" name="Airline_ID" nullable="true" pattern="" precision="-1" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Equipement" nullable="true" pattern="" precision="-1" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="SourceAirportCityCountry" nullable="true" pattern="" precision="-1" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="DestinationAirportCityCountry" nullable="true" pattern="" precision="-1" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Equipement" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SourceAirportCityCountry" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DestinationAirportCityCountry" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="840" posY="200">
@@ -455,17 +455,17 @@
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tLogRow_1">
-      <column comment="" key="false" length="2" name="Airline_Code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="TEXT" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Airline_Code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="-1" name="Airline_ID" nullable="true" pattern="" precision="-1" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Equipement" nullable="true" pattern="" precision="-1" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="SourceAirportCityCountry" nullable="true" pattern="" precision="-1" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="DestinationAirportCityCountry" nullable="true" pattern="" precision="-1" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Equipement" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SourceAirportCityCountry" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DestinationAirportCityCountry" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tCreateTable" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="120">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tCreateTable_1" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DBTYPE" value="POSTGRE"/>
-    <elementParameter field="CLOSED_LIST" name="TABLEACTION" value="CREATE_TABLE"/>
+    <elementParameter field="CLOSED_LIST" name="TABLEACTION" value="DROP_IF_EXIST_CREATE"/>
     <elementParameter field="CHECK" name="CASESENSITIVE" value="false" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
@@ -537,11 +537,11 @@
     <elementParameter field="CHECK" name="VERTICA_CREATE_PROJECTION" value="true" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tCreateTable_1">
-      <column comment="" key="false" length="2" name="Airline_Code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="TEXT" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Airline_Code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="-1" name="Airline_ID" nullable="true" pattern="" precision="-1" sourceType="INT4" type="id_Integer" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Equipement" nullable="true" pattern="" precision="-1" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="SourceAirportCityCountry" nullable="true" pattern="" precision="-1" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="DestinationAirportCityCountry" nullable="true" pattern="" precision="-1" sourceType="TEXT" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Equipement" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SourceAirportCityCountry" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DestinationAirportCityCountry" nullable="true" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tLogCatcher_1">
